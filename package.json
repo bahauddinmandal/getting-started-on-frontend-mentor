@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://bahauddinmandal.github.io/getting-started-on-frontend-mentor/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
