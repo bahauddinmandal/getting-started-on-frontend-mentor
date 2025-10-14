@@ -37,11 +37,10 @@ body {
 }
 
 .card .content {
-  padding: 0 16px;
+  padding: 24px 16px 40px 16px;
 }
 
 .card h1 {
-  margin-top: 24px;
   font-size: 22px;
   font-weight: 700;
   line-height: 120%;
@@ -49,9 +48,7 @@ body {
   color: var(--color-slate-900);
 }
 .card p {
-  padding: 0 16px;
   margin-top: 16px;
-  margin-bottom: 40px;
   font-size: 15px;
   font-weight: 400;
   line-height: 140%;
