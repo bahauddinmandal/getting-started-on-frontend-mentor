@@ -17,7 +17,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Screenshot
 
-![](./screenshot.png)
+![](./screenshot.jpg)
 
 ### Links
 
@@ -48,5 +48,6 @@ I gained valuable experience in translating a professional design into code. Spe
 
 ## Author
 
-- Website - [Add your name here](#)
+- email - [bahauddin.one@gmail.com](mailto:bahauddin.one@gmail.com)
 - Frontend Mentor - [@bahauddinmandal](https://www.frontendmentor.io/profile/bahauddinmandal)
+- twitter - [@bahauddinmandal](https://x.com/bahauddinmandal)

@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:wght@500;800&display=swap");
+
+:root {
+  --yellow: hsl(47, 88%, 63%);
+  --white: hsl(0, 0%, 100%);
+  --gray-500: hsl(0, 0%, 42%);
+  --gray-950: hsl(0, 0%, 7%);
+
+  --spac-50: 4px;
+  --spac-100: 8px;
+  --spac-150: 12px;
+  --spac-200: 24px;
+
+  --font: "Figtree", sans-serif;
+  --line-height: 150%;
+  --letter-spacing: 0px;
+
+  --text-1: clamp(20px, 0.616vw + 17.69px, 24px);
+  --text-2: clamp(14px, 0.188vw + 13.29px, 16px);
+  --text-3: clamp(12px, 0.1878vw + 11.3px, 14px);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  line-height: var(--line-height);
+}
+
+html {
+  font-family: var(--font);
+  letter-spacing: var(--letter-spacing);
+  font-weight: 500;
+}
+
+body {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  background-color: var(--yellow);
+  color: var(--gray-950);
+}
+
+.card {
+  max-width: 384px;
+  padding: var(--spac-200);
+  background-color: var(--white);
+  outline: 1px solid var(--gray-950);
+  border-radius: 20px;
+  box-shadow: 8px 8px #000;
+  margin: var(--spac-200);
+}
+
+.card figure img {
+  width: 100%;
+  border-radius: 10px;
+  vertical-align: bottom;
+  object-fit: cover;
+}
+
+.content {
+  padding: var(--spac-200) 0;
+}
+
+.category {
+  width: fit-content;
+  padding: var(--spac-50) var(--spac-150);
+  background-color: var(--yellow);
+  border-radius: var(--spac-50);
+  font-size: var(--text-3);
+  font-weight: 800;
+}
+
+.publish-date {
+  padding: var(--spac-150) 0;
+  font-size: var(--text-3);
+}
+.card h1 {
+  font-size: var(--text-1);
+  cursor: pointer;
+}
+
+.card h1:hover {
+  color: var(--yellow);
+}
+
+.description {
+  padding-top: var(--spac-150);
+  color: var(--gray-500);
+  font-size: var(--text-2);
+}
+.author {
+  display: flex;
+  align-items: center;
+  gap: var(--spac-150);
+  font-size: 14px;
+  font-weight: 800;
+}

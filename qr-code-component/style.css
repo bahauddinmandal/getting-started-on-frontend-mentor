@@ -27,7 +27,7 @@ body {
   padding: 16px 16px 0 16px;
   background-color: var(--color-white);
   border-radius: 16px;
-  box-shadow: 0px 25px 25px 0px --shadow;
+  box-shadow: 0px 25px 25px 0px var(--shadow);
   text-align: center;
 }
 
