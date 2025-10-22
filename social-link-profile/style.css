@@ -39,33 +39,37 @@ body {
   font-size: var(--space-m);
 }
 
-.card-head {
+.card-top {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-bottom: 22px;
 }
-.card-head img {
+.card-top img {
   border-radius: 100%;
   margin-bottom: var(--space-xl);
 }
-.card-head h1 {
+.card-top h1 {
   font-size: var(--space-l);
   font-weight: 700;
   margin-bottom: var(--space-s);
 }
-.card-head .location {
+.card-top .address {
   color: var(--green);
   font-size: var(--space-s);
   font-weight: 700;
   margin-bottom: var(--space-xl);
 }
 
-.card-head .decription {
+.card-top .decription {
   font-size: var(--space-s);
 }
 
-.card .card-link {
+.card ul {
+  list-style-type: none;
+}
+
+.card li {
   margin-top: var(--space-m);
   background-color: var(--grey-700);
   width: 100%;
@@ -74,13 +78,22 @@ body {
   justify-content: center;
   align-items: center;
   border-radius: 10px;
-  font-size: var(--space-s);
-  font-weight: 600;
   cursor: pointer;
 }
 
-.card .card-link:active,
-.card-link:hover {
+.card li a {
+  color: var(--white);
+  text-decoration: none;
+  font-size: var(--space-s);
+  font-weight: 600;
+}
+
+.card li:hover,
+.card li:focus-within {
   background-color: var(--green);
+}
+.card li:hover a,
+.card a:focus {
   color: var(--grey-900);
+  outline: none;
 }
