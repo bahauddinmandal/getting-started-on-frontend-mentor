@@ -10,6 +10,7 @@ export default defineConfig({
         project1: resolve(__dirname, "qr-code-component/index.html"),
         project2: resolve(__dirname, "blog-preview-card/index.html"),
         project3: resolve(__dirname, "social-link-profile/index.html"),
+        project4: resolve(__dirname, "recipe-page/index.html"),
       },
     },
   },
